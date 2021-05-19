@@ -1,0 +1,38 @@
+.pointer {
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-bottom: 3px;
+  width: auto;
+  border-radius: 5px;
+  background-color: rgb(153, 153, 88);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  outline: 1px solid rgb(247, 229, 229);
+  font-family: Bradley Hand, cursive;
+}
+
+.btn {
+  font-weight: 700;
+  color: rgb(79, 82, 66);
+  text-decoration: none;
+  margin: 5px 0 5px 0;
+  border-radius: 3px;
+  outline: 1px solid white;
+  background: rgb(198, 209, 203);
+  box-shadow: 0 1px 3px 5px rgb(192, 212, 203);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.btn:not(:last-child) {
+  margin-right: 35px;
+}
+
+.btn:hover {
+  color: azure;
+  background: rgb(44, 59, 52);
+}
+
+.btn:active {
+  background: rgb(30, 46, 38);
+  box-shadow: 0 3px rgb(30, 46, 38) inset;
+}
